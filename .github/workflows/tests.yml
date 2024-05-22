@@ -26,4 +26,6 @@ jobs:
 
     - name: Run tests
       run: python testing_demo/unit_test.py
+
+    - name: Integration tests
       run: python testing_demo/integration_test.py
